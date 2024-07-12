@@ -2,8 +2,8 @@ import React, { useState } from "react";
 
 function LoginPage({ setShowLoginForm, setIsLoggedIn }) {
   const initialFormData = {
-    username: "admin@gmail.com",
-    password: "admin",
+    username: "",
+    password: "",
   };
 
   const [formData, setFormData] = useState(initialFormData);
@@ -37,6 +37,13 @@ function LoginPage({ setShowLoginForm, setIsLoggedIn }) {
       <div className="row w-40">
         <div className="col-md-8 w-100 mw-100">
           <form className="p-5 shadow rounded bg-light" onSubmit={handleLogin}>
+
+          <div className="text-danger fst-italic blink">
+            Note : For Login Use this username and password
+            <br /> username : "admin@gmail.com"
+            <br /> password : "admin"
+          </div><br />
+
             <div className="mb-3">
               <label htmlFor="username" className="form-label fs-5">
                 Username

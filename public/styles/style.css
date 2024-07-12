@@ -36,3 +36,22 @@ body {
 .text-justify {
   text-align: justify;
 }
+
+@keyframes blink {
+  0% { opacity: 0.8; }
+  50% { opacity: 0.0; }
+  100% { opacity: 0.8; }
+}
+
+.blink {
+  animation: blink 1s infinite;
+}
+
+.blink:hover{
+  animation: blink 0;
+}
+
+.btn:hover{
+  background-color: #0baa0b;
+  color: whitesmoke;
+}
