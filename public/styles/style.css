@@ -1,0 +1,38 @@
+body {
+  background-color: #bff4ff;
+}
+
+.mx-200 {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.mt-10 {
+  margin-top: 10rex;
+}
+
+.mt-8 {
+  margin-top: 8rex;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.nav-link {
+  border-bottom: 5px solid darkblue;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #0d1b84;
+}
+
+.nav-link:hover {
+  background-color: darkblue;
+  box-shadow: 4px 7px 7px gray;
+  color: whitesmoke;
+  transition: background-color 1.2s ease, color 1s ease, border-color 1s ease;
+}
+
+.text-justify {
+  text-align: justify;
+}
